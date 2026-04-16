@@ -1137,6 +1137,10 @@ body {
 }
 
 @media (max-width: 991px) {
+  .navbar-brand {
+    margin-left: 0;
+  }
+
   .navbar-collapse {
     background: rgba(15, 61, 38, 0.96);
     backdrop-filter: blur(10px);
@@ -1212,18 +1216,22 @@ body {
   #mainNav {
     padding: 0.5rem 0;
   }
-  
+
   #mainNav.scrolled {
     padding: 0.35rem 0;
   }
-  
-  .brand-mark {
-    width: 56px;
-    height: 56px;
+
+  .navbar-brand {
+    margin-left: 0;
   }
-  
+
+  .brand-mark {
+    width: 48px;
+    height: 48px;
+  }
+
   .brand-sub {
-    font-size: 0.48rem;
+    font-size: 0.45rem;
   }
   
   .hero-section {
@@ -1290,6 +1298,15 @@ body {
 }
 
 @media (max-width: 480px) {
+  .brand-mark {
+    width: 40px;
+    height: 40px;
+  }
+
+  .brand-sub {
+    font-size: 0.4rem;
+  }
+
   .hero-section {
     padding: 90px 0 50px;
   }

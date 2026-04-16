@@ -6,14 +6,23 @@ document.addEventListener('DOMContentLoaded', function () {
 
   /* ── 1. NAVBAR SCROLL EFFECT ── */
   const nav = document.getElementById('mainNav');
+  let scrollTicking = false;
+
   function handleNavScroll() {
     if (window.scrollY > 60) {
       nav.classList.add('scrolled');
     } else {
       nav.classList.remove('scrolled');
     }
+    scrollTicking = false;
   }
-  window.addEventListener('scroll', handleNavScroll, { passive: true });
+
+  window.addEventListener('scroll', function () {
+    if (!scrollTicking) {
+      requestAnimationFrame(handleNavScroll);
+      scrollTicking = true;
+    }
+  }, { passive: true });
   handleNavScroll();
 
   /* ── 2. SMOOTH ACTIVE NAV LINKS ── */
@@ -158,10 +167,17 @@ document.addEventListener('DOMContentLoaded', function () {
   /* ── 7. PARALLAX HERO ── */
   const heroBg = document.querySelector('.hero-img-bg');
   if (heroBg) {
-    window.addEventListener('scroll', () => {
-      const scrollY = window.scrollY;
-      if (scrollY < window.innerHeight) {
-        heroBg.style.transform = `translateY(${scrollY * 0.35}px)`;
+    let parallaxTicking = false;
+    window.addEventListener('scroll', function () {
+      if (!parallaxTicking) {
+        requestAnimationFrame(function () {
+          const scrollY = window.scrollY;
+          if (scrollY < window.innerHeight) {
+            heroBg.style.transform = 'translateY(' + (scrollY * 0.35) + 'px)';
+          }
+          parallaxTicking = false;
+        });
+        parallaxTicking = true;
       }
     }, { passive: true });
   }
