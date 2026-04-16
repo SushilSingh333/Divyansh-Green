@@ -240,7 +240,7 @@ body {
 }
 .hero-title em {
   font-style: italic;
-  color: var(--emerald-light);
+  color: var(--ivory);
 }
 
 .hero-subtitle {
@@ -278,18 +278,17 @@ body {
 }
 
 .payment-plan-hero {
-  display: flex;
-  gap: 1.25rem;
   margin-top: 0.35rem;
-}
-
-.payment-plan-hero div strong {
+  background: rgba(255,255,255,0.1);
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255,255,255,0.2);
   font-family: var(--font-display);
-  font-size: 1rem;
-}
-
-.payment-plan-hero div {
-  min-width: 72px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--ivory);
+  text-align: center;
+  backdrop-filter: blur(5px);
 }
 
 .hero-pills { animation: fadeUp 0.9s 0.45s ease both; }
