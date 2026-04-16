@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="theme-color" content="#1a5c3a"/>
+  <title>Divyansh Green Heights – Ultra-Luxury Living | Greater Noida</title>
+  <link rel="icon" href="assets/logo.webp" type="image/webp"/>
+  <link rel="apple-touch-icon" href="assets/logo.webp"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ══════════════ STICKY NAV ══════════════ -->
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+  <div class="container-xl">
+    <a class="navbar-brand" href="#">
+      <img class="brand-mark" src="assets/logo.webp" alt="Divyansh Green Heights logo"/>
+      <span class="brand-sub">GREEN HEIGHTS</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav gap-1 align-items-center">
+        <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
+        <li class="nav-item"><a class="nav-link" href="#configurations">Configurations</a></li>
+        <li class="nav-item"><a class="nav-link" href="#amenities">Amenities</a></li>
+        <li class="nav-item"><a class="nav-link" href="#location">Location</a></li>
+        <li class="nav-item"><a class="nav-link" href="#why">Why Invest</a></li>
+        <li class="nav-item ms-2">
+          <button class="btn btn-nav-cta" data-bs-toggle="modal" data-bs-target="#formModal">
+            Book Consultation
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ══════════════ HERO SECTION ══════════════ -->
+<section class="hero-section" id="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-img-bg"></div>
+
+  <div class="container-xl h-100 position-relative z-2">
+    <div class="row h-100 align-items-center">
+
+      <!-- Left: Hero copy -->
+      <div class="col-lg-6 hero-copy">
+        <div class="hero-badge mb-3">
+          <i class="bi bi-patch-check-fill"></i> RERA No: UPRERAPRJ120773/08/2025
+        </div>
+        <h1 class="hero-title">
+          Experience<br/>
+          <em>Ultra-Luxury</em><br/>
+          Living
+        </h1>
+        <p class="hero-subtitle">Divyansh Green Heights — Sector Pi-1 &amp; 2, Greater Noida</p>
+        <div class="hero-price-tag">
+          Investment starts @ <strong>₹1.85 Cr*</strong>
+        </div>
+        <div class="hero-pills mt-4 d-flex flex-wrap gap-2">
+          <span class="pill"><i class="bi bi-airplane-fill"></i> Near Jewar Airport</span>
+          <span class="pill"><i class="bi bi-geo-alt-fill"></i> Noida-GN Expressway</span>
+          <span class="pill"><i class="bi bi-tree-fill"></i> 70% Green Open Area</span>
+        </div>
+      </div>
+
+      <!-- Right: Inquiry Form -->
+      <div class="col-lg-5 offset-lg-1 mt-5 mt-lg-0">
+        <div class="hero-form-card">
+          <div class="form-card-header">
+            <h4>Book Your Consultation</h4>
+            <p>Secure your spot in NCR's next iconic address</p>
+          </div>
+          <div class="form-card-body">
+            <div class="mb-3">
+              <label class="form-label">Full Name</label>
+              <input type="text" class="form-control luxury-input" placeholder="Your full name"/>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Phone Number</label>
+              <div class="input-group">
+                <span class="input-group-text luxury-input-addon">+91</span>
+                <input type="tel" class="form-control luxury-input" placeholder="10-digit mobile"/>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">City</label>
+              <input type="text" class="form-control luxury-input" placeholder="Your city"/>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Interested In</label>
+              <select class="form-select luxury-input">
+                <option value="" disabled selected>Select configuration</option>
+                <option>3 BHK – 1895–2040 Sq.Ft. (₹1.85 Cr*)</option>
+                <option>4 BHK – 2925–3295 Sq.Ft. (₹2.85 Cr*)</option>
+                <option>Both / Investment</option>
+              </select>
+            </div>
+            <button class="btn btn-hero-submit w-100">
+              Request Callback <i class="bi bi-arrow-right ms-1"></i>
+            </button>
+            <p class="disclaimer-text mt-2">* Prices are indicative. Subject to change without notice.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Scroll indicator -->
+  <div class="scroll-cue">
+    <span>Scroll to Explore</span>
+    <i class="bi bi-chevron-double-down"></i>
+  </div>
+</section>
+
+<!-- ══════════════ STATS STRIP ══════════════ -->
+<section class="stats-strip">
+  <div class="container-xl">
+    <div class="row g-0 text-center">
+      <div class="col-6 col-md-3 stat-item">
+        <div class="stat-num" data-target="25">0</div>
+        <div class="stat-label">Years Legacy</div>
+      </div>
+      <div class="col-6 col-md-3 stat-item">
+        <div class="stat-num" data-target="3">0</div>
+        <div class="stat-label">Exclusive Towers</div>
+      </div>
+      <div class="col-6 col-md-3 stat-item">
+        <div class="stat-num" data-suffix="%" data-target="70">0</div>
+        <div class="stat-label">Green Open Area</div>
+      </div>
+      <div class="col-6 col-md-3 stat-item">
+        <div class="stat-num" data-suffix=" Ac" data-target="4">0</div>
+        <div class="stat-label">Acres of Luxury</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ OVERVIEW ══════════════ -->
+<section class="section-pad" id="overview">
+  <div class="container-xl">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <div class="section-label">Project Overview</div>
+        <h2 class="section-title">A New Standard<br/><em>of Urban Luxury</em></h2>
+        <p class="section-body">
+          Divyansh Green Heights is a rare confluence of biophilic architecture and metropolitan connectivity. Set across 4.02 sprawling acres in Sector Pi — one of Greater Noida's most sought-after low-density pockets — this project redefines what executive housing means in the NCR.
+        </p>
+        <p class="section-body">
+          With only three exclusive towers, you're guaranteed privacy, space, and a community that matches your aspirations. Backed by 25 years of Divyansh legacy and the T3 promise — Assurance, Transparency, Technology, and Timely Delivery.
+        </p>
+        <div class="highlight-pills mt-4">
+          <div class="h-pill"><i class="bi bi-check-circle-fill"></i> SKA T3 Assurance</div>
+          <div class="h-pill"><i class="bi bi-check-circle-fill"></i> 30 Yrs Construction Excellence</div>
+          <div class="h-pill"><i class="bi bi-check-circle-fill"></i> Biophilic Design</div>
+          <div class="h-pill"><i class="bi bi-check-circle-fill"></i> Infinity-Edge Pool</div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="overview-img-grid">
+          <div class="ov-img ov-img-1">
+            <img src="assets/DGH.jpg" alt="Luxury tower exterior" class="img-fluid rounded-4" loading="eager" decoding="async"/>
+          </div>
+          <div class="ov-img ov-img-2">
+            <img src="assets/g8-lg.webp" alt="Green landscape" class="img-fluid rounded-4" loading="lazy" decoding="async"/>
+          </div>
+          <div class="floating-badge">
+            <i class="bi bi-award-fill"></i>
+            <span>25 Yrs Legacy</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ CONFIGURATIONS ══════════════ -->
+<section class="section-pad bg-soft" id="configurations">
+  <div class="container-xl">
+    <div class="text-center mb-5">
+      <div class="section-label">Floor Plans & Pricing</div>
+      <h2 class="section-title">Choose Your <em>Perfect Space</em></h2>
+    </div>
+    <div class="row g-4 justify-content-center">
+
+      <!-- 3 BHK -->
+      <div class="col-md-6 col-lg-5">
+        <div class="config-card">
+          <div class="config-img">
+            <img src="assets/g10.webp" alt="3 BHK Living Room" class="img-fluid" loading="lazy" decoding="async"/>
+            <div class="config-badge">Most Popular</div>
+          </div>
+          <div class="config-body">
+            <h3 class="config-title">3 BHK Apartments</h3>
+            <div class="config-meta d-flex gap-4 my-3">
+              <div>
+                <div class="meta-label">Carpet Area</div>
+                <div class="meta-val">1895 – 2040 Sq.Ft.</div>
+              </div>
+              <div>
+                <div class="meta-label">Starting At</div>
+                <div class="meta-val price">₹1.85 Cr*</div>
+              </div>
+            </div>
+            <ul class="config-features">
+              <li><i class="bi bi-dot"></i> Spacious master suite with walk-in wardrobe</li>
+              <li><i class="bi bi-dot"></i> Large living & dining with panoramic views</li>
+              <li><i class="bi bi-dot"></i> Modern modular kitchen</li>
+              <li><i class="bi bi-dot"></i> 2 covered car parkings</li>
+            </ul>
+            <button class="btn btn-config w-100 mt-3" data-bs-toggle="modal" data-bs-target="#formModal">
+              Get Floor Plan <i class="bi bi-download ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 BHK -->
+      <div class="col-md-6 col-lg-5">
+        <div class="config-card config-card-premium">
+          <div class="config-img">
+            <img src="assets/g14.webp" alt="4 BHK Luxury Living Room" class="img-fluid" loading="lazy" decoding="async"/>
+            <div class="config-badge badge-premium">Ultra Luxury</div>
+          </div>
+          <div class="config-body">
+            <h3 class="config-title">4 BHK Apartments</h3>
+            <div class="config-meta d-flex gap-4 my-3">
+              <div>
+                <div class="meta-label">Carpet Area</div>
+                <div class="meta-val">2925 – 3295 Sq.Ft.</div>
+              </div>
+              <div>
+                <div class="meta-label">Starting At</div>
+                <div class="meta-val price">₹2.85 Cr*</div>
+              </div>
+            </div>
+            <ul class="config-features">
+              <li><i class="bi bi-dot"></i> 4 ensuite bedrooms with premium fittings</li>
+              <li><i class="bi bi-dot"></i> Private study & family lounge</li>
+              <li><i class="bi bi-dot"></i> Double-height balcony with skyline view</li>
+              <li><i class="bi bi-dot"></i> 2 covered car parkings + utility</li>
+            </ul>
+            <button class="btn btn-config-premium w-100 mt-3" data-bs-toggle="modal" data-bs-target="#formModal">
+              Get Floor Plan <i class="bi bi-download ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Payment Plan -->
+    <div class="payment-plan-strip mt-5">
+      <div class="row align-items-center text-center">
+        <div class="col-12 mb-3">
+          <div class="section-label">Flexible Payment Plan</div>
+        </div>
+        <div class="col-4">
+          <div class="pay-step">
+            <div class="pay-num">30%</div>
+            <div class="pay-label">On Booking</div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="pay-divider-wrap"><div class="pay-divider"></div></div>
+          <div class="pay-step">
+            <div class="pay-num">40%</div>
+            <div class="pay-label">During Construction</div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="pay-step">
+            <div class="pay-num">30%</div>
+            <div class="pay-label">On Possession</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ AMENITIES ══════════════ -->
+<section class="section-pad" id="amenities">
+  <div class="container-xl">
+    <div class="text-center mb-5">
+      <div class="section-label">World-Class Amenities</div>
+      <h2 class="section-title">Every Detail, <em>Thoughtfully Crafted</em></h2>
+    </div>
+    <div class="row g-4">
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="amenity-card">
+          <div class="amenity-img">
+              <img src="assets/New folder (3)/photo-1571896349842-33c89424de2d.jfif" alt="Grand Lobby" loading="lazy" decoding="async"/>
+          </div>
+          <div class="amenity-label">Triple Height Grand Lobby</div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="amenity-card">
+          <div class="amenity-img">
+              <img src="assets/New folder (3)/2.jfif" alt="Swimming Pool" loading="lazy" decoding="async"/>
+          </div>
+          <div class="amenity-label">Indoor Swimming Pool</div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="amenity-card">
+          <div class="amenity-img">
+              <img src="assets/New folder (3)/3.jfif" alt="Gymnasium" loading="lazy" decoding="async"/>
+          </div>
+          <div class="amenity-label">Modern Gymnasium</div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="amenity-card">
+          <div class="amenity-img">
+              <img src="assets/New folder (3)/download.jfif" alt="Badminton Court" loading="lazy" decoding="async"/>
+          </div>
+          <div class="amenity-label">Badminton Court</div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="amenity-card">
+          <div class="amenity-img">
+              <img src="assets/New folder (3)/5.jfif" alt="Massage Room" loading="lazy" decoding="async"/>
+          </div>
+          <div class="amenity-label">Massage Room & Spa</div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="amenity-card">
+          <div class="amenity-img">
+              <img src="assets/New folder (3)/6.jfif" alt="Multipurpose Hall" loading="lazy" decoding="async"/>
+          </div>
+          <div class="amenity-label">Multipurpose Hall</div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="amenity-card">
+          <div class="amenity-img">
+              <img src="assets/New folder (3)/7.jfif" alt="Infinity Pool Garden" loading="lazy" decoding="async"/>
+          </div>
+          <div class="amenity-label">Infinity-Edge Pool & Zen Garden</div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="amenity-card">
+          <div class="amenity-img">
+              <img src="assets/New folder (3)/download (1).jfif" alt="Club Atrium" loading="lazy" decoding="async"/>
+          </div>
+          <div class="amenity-label">Club Atrium & Lifestyle Spaces</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ LOCATION ══════════════ -->
+<section class="location-section" id="location">
+  <div class="container-xl">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-5">
+        <div class="section-label">Prime Location</div>
+        <h2 class="section-title">Connected to<br/><em>Everything You Need</em></h2>
+        <p class="section-body">Sector Pi-1 &amp; 2, Greater Noida, is a low-density, fully-developed pocket — giving you the rare blend of urban convenience and neighbourhood tranquillity.</p>
+        <div class="location-list mt-4">
+          <div class="loc-item">
+            <div class="loc-icon"><i class="bi bi-airplane-fill"></i></div>
+            <div><strong>Jewar International Airport</strong><br/><small>Upcoming mega-connectivity hub</small></div>
+          </div>
+          <div class="loc-item">
+            <div class="loc-icon"><i class="bi bi-signpost-split-fill"></i></div>
+            <div><strong>Noida–Greater Noida Expressway</strong><br/><small>Seamless Delhi NCR access</small></div>
+          </div>
+          <div class="loc-item">
+            <div class="loc-icon"><i class="bi bi-mortarboard-fill"></i></div>
+            <div><strong>Top Schools & Colleges</strong><br/><small>Ryan International, Amity, &amp; more</small></div>
+          </div>
+          <div class="loc-item">
+            <div class="loc-icon"><i class="bi bi-heart-pulse-fill"></i></div>
+            <div><strong>Premium Hospitals Nearby</strong><br/><small>Yatharth, Jaypee, &amp; Kailash</small></div>
+          </div>
+          <div class="loc-item">
+            <div class="loc-icon"><i class="bi bi-bag-fill"></i></div>
+            <div><strong>Malls &amp; Retail Hubs</strong><br/><small>Omaxe Connaught Place &amp; more</small></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="location-img-wrap">
+          <img src="assets/2.jpg" alt="Greater Noida skyline aerial" class="img-fluid rounded-4" loading="lazy" decoding="async"/>
+          <div class="loc-tag loc-tag-1"><i class="bi bi-geo-alt-fill"></i> Sector Pi-1 &amp; 2</div>
+          <div class="loc-tag loc-tag-2"><i class="bi bi-airplane"></i> Jewar Airport — Nearby</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ WHY INVEST ══════════════ -->
+<section class="section-pad bg-soft" id="why">
+  <div class="container-xl">
+    <div class="text-center mb-5">
+      <div class="section-label">Investment Intelligence</div>
+      <h2 class="section-title">Why Invest <em>Here?</em></h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="why-card">
+          <div class="why-icon"><i class="bi bi-building"></i></div>
+          <h5>Exclusive Low-Density Living</h5>
+          <p>Only 3 towers on 4.02 acres — ensuring maximum privacy, open space, and a premium community experience rarely found in NCR.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="why-card">
+          <div class="why-icon"><i class="bi bi-shield-check"></i></div>
+          <h5>T3 Assurance Promise</h5>
+          <p>Transparency, Technology & Timely Delivery backed by 25 years of Divyansh legacy and 30 years of construction excellence.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="why-card">
+          <div class="why-icon"><i class="bi bi-tree"></i></div>
+          <h5>Biophilic Design Philosophy</h5>
+          <p>70% open green landscape featuring zen gardens, native flora, infinity pool, and spaces designed to heal and inspire.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="why-card">
+          <div class="why-icon"><i class="bi bi-graph-up-arrow"></i></div>
+          <h5>High Rental Yield Potential</h5>
+          <p>3 & 4 BHK executive housing in Pi sector drives demand and capital appreciation — a proven formula for investors.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="why-card">
+          <div class="why-icon"><i class="bi bi-airplane"></i></div>
+          <h5>Jewar Airport Proximity</h5>
+          <p>The upcoming international airport supercharges property values in this corridor — buy now before the surge.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="why-card">
+          <div class="why-icon"><i class="bi bi-cash-coin"></i></div>
+          <h5>Flexible 30:40:30 Plan</h5>
+          <p>Thoughtfully structured payment plan that keeps your cash-flow comfortable while you wait for possession.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ CTA BANNER ══════════════ -->
+<section class="cta-banner">
+  <div class="cta-overlay"></div>
+  <div class="container-xl position-relative z-2 text-center">
+    <div class="section-label">Limited Inventory</div>
+    <h2 class="cta-title">Secure Your Dream Home Today</h2>
+    <p class="cta-sub">Only 3 exclusive towers. Once they're gone, they're gone.</p>
+    <div class="d-flex gap-3 justify-content-center flex-wrap mt-4">
+      <button class="btn btn-cta-primary" data-bs-toggle="modal" data-bs-target="#formModal">
+        <i class="bi bi-calendar-check me-2"></i>Book Free Consultation
+      </button>
+      <a href="tel:+919999999999" class="btn btn-cta-outline">
+        <i class="bi bi-telephone me-2"></i>Call Now
+      </a>
+    </div>
+    <p class="rera-text mt-4">RERA No: UPRERAPRJ120773/08/2025 &nbsp;|&nbsp; Subject to T&C</p>
+  </div>
+</section>
+
+<!-- ══════════════ FOOTER ══════════════ -->
+<footer class="site-footer">
+  <div class="container-xl">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <div class="footer-brand mb-3">
+          <img class="brand-mark footer-brand-mark" src="assets/logo.webp" alt="Divyansh Green Heights logo"/>
+          <span class="brand-logo">Divyansh</span>
+          <span class="brand-sub">GREEN HEIGHTS</span>
+        </div>
+        <p class="footer-desc">Ultra-luxury residences redefining NCR's skyline. Backed by 25 years of legacy and a promise of excellence.</p>
+      </div>
+      <div class="col-lg-3 offset-lg-1">
+        <h6 class="footer-heading">Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#configurations">Configurations</a></li>
+          <li><a href="#amenities">Amenities</a></li>
+          <li><a href="#location">Location</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h6 class="footer-heading">Get in Touch</h6>
+        <div class="footer-contact">
+          <div><i class="bi bi-geo-alt-fill me-2"></i>Sector Pi-1 & 2, Greater Noida, UP</div>
+          <div><i class="bi bi-telephone-fill me-2"></i>+91 99999 99999</div>
+          <div><i class="bi bi-envelope-fill me-2"></i>info@divyanshgreenheights.com</div>
+        </div>
+        <p class="rera-footer mt-3">RERA No: UPRERAPRJ120773/08/2025</p>
+      </div>
+    </div>
+    <div class="footer-bottom mt-4 pt-3">
+      <p>© 2025 Divyansh Green Heights. All rights reserved. | *Prices & details are indicative and subject to change without notice.</p>
+      <p class="footer-dev">devloped by aajneeti connect limited</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════════ FLOATING BUTTONS ══════════════ -->
+<div class="floating-actions">
+  <a href="https://wa.me/919999999999?text=Hi%2C%20I%27m%20interested%20in%20Divyansh%20Green%20Heights" target="_blank" class="float-btn float-wa" title="WhatsApp Us">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+  <a href="tel:+919999999999" class="float-btn float-call" title="Call Us">
+    <i class="bi bi-telephone-fill"></i>
+  </a>
+</div>
+
+<!-- ══════════════ POPUP FORM MODAL ══════════════ -->
+<div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content modal-luxury">
+      <div class="modal-header border-0">
+        <div>
+          <h4 class="modal-title" id="formModalLabel">Book Your Consultation</h4>
+          <p class="modal-sub mb-0">Secure your spot in NCR's next iconic address</p>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="mb-3">
+              <label class="form-label">Full Name</label>
+              <input type="text" class="form-control luxury-input" placeholder="Your full name"/>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Phone Number</label>
+              <div class="input-group">
+                <span class="input-group-text luxury-input-addon">+91</span>
+                <input type="tel" class="form-control luxury-input" placeholder="10-digit mobile"/>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">City</label>
+              <input type="text" class="form-control luxury-input" placeholder="Your city"/>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="mb-3">
+              <label class="form-label">Interested In</label>
+              <select class="form-select luxury-input">
+                <option value="" disabled selected>Select configuration</option>
+                <option>3 BHK – 1895–2040 Sq.Ft. (₹1.85 Cr*)</option>
+                <option>4 BHK – 2925–3295 Sq.Ft. (₹2.85 Cr*)</option>
+                <option>Both / Investment</option>
+              </select>
+            </div>
+            <div class="modal-promo-box">
+              <i class="bi bi-gift-fill me-2"></i>
+              <div>
+                <strong>Early Bird Offer</strong><br/>
+                <small>Get exclusive pre-launch pricing & priority unit selection</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-hero-submit w-100 mt-3">
+          Request Callback <i class="bi bi-arrow-right ms-1"></i>
+        </button>
+        <p class="disclaimer-text text-center mt-2">* Prices are indicative. Subject to change without notice.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
